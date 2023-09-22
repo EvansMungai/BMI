@@ -9,7 +9,7 @@ public class bmiweight {
 			System.out.println("Enter the height");
 			Scanner heigh = new Scanner(System.in);
 			double height= heigh.nextDouble();
-			double bmi= weight/(height+height);
+			double bmi= weight/(height*height);
 			System.out.println("Your BMI is:" + bmi);
 			
 			
